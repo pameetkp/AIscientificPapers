@@ -20,7 +20,7 @@ class Cooperator(Player):
 
     def strategy(self, opponent):
         return 1  # Always cooperate
-#de3fecor algorithm
+#defecor algorithm
 class Defector(Player):
     def __init__(self):
         super().__init__("Defector")
